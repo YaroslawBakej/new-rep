@@ -1,0 +1,45 @@
+.calc{
+    margin: 20px auto;
+    height: 350px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background: rgb(67, 63, 63);
+    color: azure;
+    padding: 18px;
+}
+.calc-screen p {
+    margin-right: 10px;
+
+}
+.btn{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    background: rgb(7, 7, 7);
+    border-radius: 40%;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+.oper{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    background: rgb(7, 7, 7);
+    border-radius: 40%;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.btn:active{
+    height: 40px;
+    width: 40px;
+}
+ 
+.block{
+    display: flex;
+}
